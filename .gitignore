@@ -1,0 +1,24 @@
+# Build directories
+build/
+build-*/
+cmake-build-*/
+
+# CMake artifacts that can end up outside build/ if configured in-source
+CMakeCache.txt
+CMakeFiles/
+CTestTestfile.cmake
+compile_commands.json
+cmake_install.cmake
+_deps/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Python (scripts/, benchmarking, reference impls)
+__pycache__/
+*.pyc
+.venv/
+venv/
