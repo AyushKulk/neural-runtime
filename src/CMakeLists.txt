@@ -4,6 +4,8 @@
 # against it directly without going through main().
 add_library(runtime_core
     runtime/version.cpp
+    tensor/buffer.cpp
+    tensor/tensor.cpp
 )
 
 target_include_directories(runtime_core

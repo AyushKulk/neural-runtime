@@ -14,6 +14,7 @@ FetchContent_MakeAvailable(googletest)
 
 add_executable(neural_runtime_tests
     runtime/version_test.cpp
+    tensor/tensor_test.cpp
 )
 
 target_link_libraries(neural_runtime_tests
