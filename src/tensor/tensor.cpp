@@ -51,7 +51,7 @@ const std::vector<std::size_t>& Tensor::strides() const { return strides_; }
 
 // product of shape_.
 std::size_t Tensor::numel() const { 
-    return std::accumulate(shape_.begin(), shape_.end(), 1, std::multiplies<std::size_t>());
+    return std::accumulate(shape_.begin(), shape_.end(), std::size_t{1}, std::multiplies<std::size_t>());
 }
 
 // compare strides_ against ComputeContiguousStrides(shape_).

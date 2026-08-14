@@ -9,6 +9,7 @@ add_library(runtime_core
     ops/matmul.cpp
     ops/add.cpp
     ops/relu.cpp
+    graph/graph.cpp
 )
 
 target_include_directories(runtime_core

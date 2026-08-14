@@ -18,6 +18,7 @@ add_executable(neural_runtime_tests
     ops/matmul_test.cpp
     ops/add_test.cpp
     ops/relu_test.cpp
+    graph/graph_test.cpp
 )
 
 target_link_libraries(neural_runtime_tests
