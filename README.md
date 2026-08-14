@@ -1,11 +1,11 @@
 # neural-runtime
 
 A small neural network inference runtime built from scratch in C++20, for
-the purpose of understanding — and demonstrating — how inference works
+the purpose of understanding and demonstrating how inference works
 below the framework/API level: tensors, computation graphs, execution
 engines, and optimized CPU kernels.
 
-This is an educational/portfolio project, developed incrementally in
+This is a portfolio project, developed incrementally in
 milestones rather than generated all at once. It's intentionally much
 smaller in scope than PyTorch, ONNX Runtime, or TensorRT.
 
