@@ -6,6 +6,9 @@ add_library(runtime_core
     runtime/version.cpp
     tensor/buffer.cpp
     tensor/tensor.cpp
+    ops/matmul.cpp
+    ops/add.cpp
+    ops/relu.cpp
 )
 
 target_include_directories(runtime_core
