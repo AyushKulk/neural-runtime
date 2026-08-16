@@ -24,6 +24,7 @@ endif()
 
 option(NEURAL_RUNTIME_BUILD_TESTS "Build unit tests" ON)
 option(NEURAL_RUNTIME_BUILD_BENCHMARKS "Build benchmarks" OFF)
+option(NEURAL_RUNTIME_BUILD_EXAMPLES "Build examples" ON)
 option(NEURAL_RUNTIME_WARNINGS_AS_ERRORS "Treat compiler warnings as errors" OFF)
 
 # ---------------------------------------------------------------------------
@@ -58,4 +59,8 @@ endif()
 
 if(NEURAL_RUNTIME_BUILD_BENCHMARKS)
     add_subdirectory(benchmarks)
+endif()
+
+if(NEURAL_RUNTIME_BUILD_EXAMPLES)
+    add_subdirectory(examples)
 endif()
